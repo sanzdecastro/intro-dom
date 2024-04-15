@@ -13,6 +13,14 @@
 function change() {
     // let h1Title = document.querySelector("h1").textContent;
     // let h1Title = document.querySelector(".titleName").textContent;
-    const h1Title = document.getElementById("titleId").textContent;
+    // let h1Title = document.querySelector("#titleId").textContent;
+    let h1Title = document.querySelector("#titleId");
     console.log(h1Title);
+
+    if (h1Title.textContent === "Holi coders!") {
+        return h1Title.textContent = "Lorem, ipsum dolor.";
+    }
+    
+    return h1Title.textContent = "Holi coders!";
+    
 }
