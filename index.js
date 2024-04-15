@@ -4,5 +4,4 @@ function change() {
     let newSquare = document.createElement("div");
 
     squareContainer.appendChild(newSquare).classList.add("redSquare");
-
 }
